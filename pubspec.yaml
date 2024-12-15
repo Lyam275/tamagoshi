@@ -1,0 +1,23 @@
+
+name: lyam_interactive_app
+description: A humanized assistant app.
+version: 1.0.0+1
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  speech_to_text: ^6.1.1
+  flutter_tts: ^3.6.3
+  lottie: ^2.6.0
+  firebase_core: ^2.15.0
+  firebase_database: ^10.2.4
+  mqtt_client: ^9.7.2
+
+flutter:
+  assets:
+    - assets/neutral_character.json
+    - assets/happy_character.json
+    - assets/angry_character.json
+  uses-material-design: true
